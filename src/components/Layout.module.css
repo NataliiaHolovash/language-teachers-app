@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 128px;
+}
+
+.logo {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: -0.02em;
+color: #121417;
+}
+
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+color: #121417;
+text-decoration: none;
+}
+
+.auth {
+  display: flex;
+  gap: 12px;
+}
+
+.login {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
+color: #121417;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.register {
+  border-radius: 12px;
+  padding: 14px 39px;
+  width: 166px;
+  height: 48px;
+  background: #121417;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
+}
