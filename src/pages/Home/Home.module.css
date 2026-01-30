@@ -1,6 +1,8 @@
 .hero {
-  margin: 0;
+   display: flex;
+  align-items: center;
   padding: 0px 64px;
+  gap: 24px;
 }
 
 .heroText {
@@ -38,13 +40,46 @@ margin-bottom: 64px;
 }
 
 .btn {
-  padding: 12px 24px;
-  background: #5b4df5;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-bottom: 98px;
+border-radius: 12px;
+border: none;
+padding: 0px 88px;
+width: 267px;
+height: 60px;
+background: #9fb7ce;
+font-weight: 700;
+line-height: 1.55556;
+color: #121417;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
+}
+
+.heroImage {
+border-radius: 30px;
+width: 568px;
+height: 530px;
+background: #bfd6ea;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ }
+
+.smile {
+     display: block;
+ max-width: 100%;
+  height: auto;
+   z-index: 1;
+
+}
+
+.mac {
+position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0; 
+  z-index: 2;
 }
 
 .stats {

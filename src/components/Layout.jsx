@@ -1,6 +1,7 @@
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import styles from "./Layout.module.css";
 
+
 const Layout = () => {
   const navigate = useNavigate();
 
@@ -8,7 +9,8 @@ const Layout = () => {
     <>
       <header className={styles.header}>
         <div className={styles.logo}>
-          LearnLingo
+         
+         <p className={styles.logoText}> LearnLingo</p>
         </div>
 
         <nav className={styles.nav}>
