@@ -22,12 +22,29 @@ const Home = () => {
          </div>
       </div>
 
-      <section className={styles.stats}>
-        <div><strong>100+</strong><span>Teachers</span></div>
-        <div><strong>10+</strong><span>Languages</span></div>
-        <div><strong>5000+</strong><span>Students</span></div>
-        <div><strong>95%</strong><span>Satisfaction</span></div>
-      </section>
+      <div className={styles.statsBox}>
+        <div className={styles.statsInner}>
+        <div className={styles.item}>
+        <h3>32,000 +</h3>
+        <p>Experienced<br></br> tutors</p>
+      </div>
+
+      <div className={styles.item}>
+        <h3>300,000 +</h3>
+        <p>5-star tutor<br></br> reviews</p>
+      </div>
+
+      <div className={styles.item}>
+        <h3>120 +</h3>
+        <p>Subjects<br></br> taught</p>
+      </div>
+
+      <div className={styles.item}>
+        <h3>200 +</h3>
+        <p>Tutor<br></br> nationalities</p>
+      </div>
+      </div>
+      </div>
     </>
   );
 };

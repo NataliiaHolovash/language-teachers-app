@@ -6,11 +6,15 @@
 }
 
 .logo {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoText {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
 color: #121417;
 }
 
@@ -28,9 +32,21 @@ color: #121417;
 text-decoration: none;
 }
 
+.link:hover,
+.link:focus,
+.link:active {
+color: #BFD6EA;
+}
+
+.logBlock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .auth {
   display: flex;
-  gap: 12px;
+  gap: 16px;
 }
 
 .login {
@@ -41,7 +57,15 @@ color: #121417;
   background: transparent;
   border: none;
   cursor: pointer;
+  padding: 0;
 }
+
+.login:hover,
+.login:focus,
+.login:active {
+color: #BFD6EA;
+}
+
 
 .register {
   border-radius: 12px;
@@ -55,5 +79,11 @@ color: #121417;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
-  color: #fff;
+}
+
+.register:hover,
+.register:focus,
+.register:active {
+background-color: #BFD6EA;
+color: black;
 }
